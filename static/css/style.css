@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.titulo{
+    display:flex;
+}
+.main
+
+.lugares{
+        display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+
+.tarjetita{
+    background-color:white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    flex: 1 1 230px;
+    min-width: 0;
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    padding:15px;
+}
