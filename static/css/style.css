@@ -2,18 +2,26 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family:arial;
 }
 
+.main{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
 
 .titulo{
     display:flex;
+    flex-direction: column;
+    padding:40px;
 }
-.main
 
 .lugares{
-        display: flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    padding:20px;
 }
 
 
@@ -21,11 +29,22 @@
 .tarjetita{
     background-color:white;
     border-radius: 10px;
-    border: 1px solid #ddd;
-    flex: 1 1 230px;
+    border: 1px solid #000000;
+    flex: 1 1 250px;
     min-width: 0;
     display: flex;
     gap:20px;
     flex-direction: column;
     padding:15px;
+}
+
+.boton{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    background-color:gray;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
 }
